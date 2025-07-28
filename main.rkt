@@ -1,6 +1,8 @@
 #lang racket/base
 (require racket/class racket/draw racket/gui
          (only-in racket/math pi))
+(provide ring-sector π)
+
 (define (π radians)  (* pi radians))
 
 (module+ test
